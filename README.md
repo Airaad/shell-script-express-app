@@ -52,14 +52,20 @@ cd shell-script-express-app
 
 2. **Give execute permission to the script:**
 ```bash
-chmod +x express-node.sh
+chmod +x express-node-win.sh # for windows
+chmod +x express-node-mac.sh # for mac
 ```
 
 3. **Run the script:**
 ```bash
-./express-node.sh
+./express-node-win.sh
 or 
-sh express-node.sh
+bash express-node-win.sh
+```
+```bash
+./express-node-mac.sh
+or 
+bash express-node-mac.sh
 ```
 
 3. **Use npm scripts:**
