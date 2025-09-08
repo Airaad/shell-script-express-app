@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Create a new directory
 mkdir express-app
 cd express-app
